@@ -2042,7 +2042,7 @@ Copyright (c) 2014 Daniel Eden
 
 .animDelay02{
    -webkit-animation-delay:0.2s;
-    animation-delay:0.2s; 
+    animation-delay:0.2s;
 }
 .animDelay04{
     -webkit-animation-delay:0.4s;
@@ -2050,11 +2050,11 @@ Copyright (c) 2014 Daniel Eden
 }
 .animDelay06{
    -webkit-animation-delay:0.6s;
-    animation-delay:0.6s; 
+    animation-delay:0.6s;
 }
 .animDelay08{
    -webkit-animation-delay:0.8s;
-    animation-delay:0.8s; 
+    animation-delay:0.8s;
 }
 .animDelay1{
     -webkit-animation-delay:1s;
@@ -2062,7 +2062,7 @@ Copyright (c) 2014 Daniel Eden
 }
 .animDelay2{
    -webkit-animation-delay:2s;
-    animation-delay:2s; 
+    animation-delay:2s;
 }
 .hideMe{
     visibility:hidden;

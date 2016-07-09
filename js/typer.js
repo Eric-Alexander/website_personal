@@ -1,6 +1,6 @@
 String.prototype.rightChars = function(n) {
     if (n <= 0) {
-        return "";
+        return " ";
     } else if (n > this.length) {
         return this;
     } else {
@@ -17,7 +17,7 @@ String.prototype.rightChars = function(n) {
         typeDelay: 200,
         clearOnHighlight: true,
         typerDataAttr: 'data-typer-targets',
-        typerInterval: 2000
+        typerInterval: 2200
     },
         highlight,
         clearText,
@@ -163,6 +163,8 @@ String.prototype.rightChars = function(n) {
     };
 
     // Expose our options to the world.
+
+
     $.typer = (function() {
         return {
             options: options
@@ -239,7 +241,7 @@ String.prototype.rightChars = function(n) {
     //-- Helper methods. These can one day be customized further to include things like ranges of delays.
 
     getHighlightInterval = function() {
-        return $.typer.options.highlightSpeed;
+        return $.typer.options.highlightSpeed = 10;
     };
 
     getTypeInterval = function() {
@@ -251,10 +253,10 @@ String.prototype.rightChars = function(n) {
     },
 
     typeDelay = function() {
-        return $.typer.options.typeDelay;
+        return $.typer.options.typeDelay = 300;
     };
 
     typerInterval = function() {
-        return $.typer.options.typerInterval;
+        return $.typer.options.typerInterval = 222;
     };
 })(jQuery);

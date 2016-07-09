@@ -49,7 +49,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	width:100%;
 	clear:both;
 	background: 50% 50% no-repeat;
-	padding:0 50px;
+	padding:7px 70px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -60,7 +60,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	padding-left:0;
 	padding-right:0;
 }
-
 
 /* Sizes */
 
@@ -178,7 +177,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #header h3{
-	font-size: 32px;
+	font-size: 20px;
 	font-weight: 900;
 	font-family: Montserrat;
 }
@@ -188,7 +187,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #services h3{
 	font-weight: 400;
-	font-family: Montserrat;
+	font-family: Zapf Chancery;
 }
 #porfolio h2{
 	font-weight: 400;
@@ -307,8 +306,9 @@ nav .caret{
 }
 .mg-lg{
 	margin-top:10px;
-	margin-bottom:40px;
+	margin-bottom:10px;
 }
+
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -498,8 +498,10 @@ a[data-lightbox]:hover img{
 
 /* Background colour styles */
 
-.bgc-carmine-pink{
-	background-color:#00994d;
+.bgc-forest-green{
+	/*background-color:#00994d;*/
+	background-color: #88d77f;
+	background: linear-gradient(#037307, #88d77f);
 }
 .bgc-outer-space{
 	background-color:#47454B;
@@ -510,14 +512,24 @@ a[data-lightbox]:hover img{
 .bgc-platinum{
 	background-color:#E5E5E5;
 }
+.bgc-arctic{
+	background-color: #DAF2F2;
+	background: linear-gradient(#DAF2F2, #BAE0E0);
+}
 /* Text colour styles */
 
-.tc-white{
-	color:#ffffff!important;
+.tc-gray{
+	color:#fff!important;
+}
+.deep-green{
+	color:#85e085!important;
+	/*background-color: #85e085;*/
+	font-size: 32px !important;
+	margin-bottom: 40px !important;
 }
 /* Button colour styles */
 
-.wire-btn-carmine-pink{
+.wire-btn-forest-green{
 	color:#85e085!important;
 	border-color:#85e085!important;
 }
@@ -527,7 +539,7 @@ a[data-lightbox]:hover img{
 }
 /* Icon colour styles */
 
-.icon-carmine-pink{
+.icon-forest-green{
 	color:#00994d!important;
 	border-color:#00994d!important;
 }
@@ -538,8 +550,8 @@ a[data-lightbox]:hover img{
 
 /* Bloc image backgrounds */
 
-.bg-city-overlay{
-	background-image:url("img/city-overlay.png");
+.bg-mtwashington{
+	background-image:url("img/mtwashington.png");
 }
 
 
@@ -549,42 +561,6 @@ a[data-lightbox]:hover img{
     margin-bottom: 30px;
 }
 
-/*-------------------------------*/
-/*    Carousel Fade Transition   */
-/*-------------------------------*/
-
-#fade-quote-carousel.carousel {
-  padding-bottom: 60px;
-}
-#fade-quote-carousel.carousel .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
-}
-#fade-quote-carousel.carousel .carousel-inner .active {
-  opacity: 1;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
-}
-#fade-quote-carousel.carousel .carousel-indicators {
-  bottom: 10px;
-}
-#fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
-  border: none;
-}
-#fade-quote-carousel blockquote {
-    text-align: center;
-    border: none;
-}
-#fade-quote-carousel .profile-circle {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 100px;
-}
 
 /* = Mobile adjustments
 -------------------------------------------------------------- */
@@ -599,7 +575,7 @@ a[data-lightbox]:hover img{
 {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
-    .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+    .page-container, #hero-bloc{overflow-x: hidden;position: relative;}
 }
 @media (max-width: 767px)
 {
