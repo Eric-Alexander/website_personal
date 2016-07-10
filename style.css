@@ -63,6 +63,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
+.madpad{
+	margin-top: 40px;
+}
 .bloc-xl{
 	padding:150px 50px;
 }
@@ -211,9 +214,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .navbar-brand{
 	height:auto;
 	padding:15px 15px;
-	font-size:25px!important;
+	font-size:35px!important;
+	text-shadow: -2px 1px 4px #ff0000;
 	font-weight:normal;
 	font-weight:600;
+	color: #5858FA !important; /*//////////////////'Eric Goetschel' color//////////////////////////*/
+}
+.navfont{
+	color: #5858FA !important; /*----------------------------------------------------*/
 }
 .navbar-brand img{
 	max-height: 200px;
@@ -231,14 +239,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .nav > li{
 	float:left;
-	margin-top:4px;
-	font-size:16px;
+	margin-bottom:10px;
+	font-size:18px;
 }
 .navbar-nav .open .dropdown-menu > li > a{
 	text-align: inherit;
+
 }
 .nav > li a:hover, .nav > li a:focus{
-	background:transparent;
+	background:#CED8F6;
+	border-radius: 10px;
 }
 .navbar-toggle{
 	margin: 10px 10px 0 0;
@@ -308,7 +318,10 @@ nav .caret{
 	margin-top:10px;
 	margin-bottom:10px;
 }
-
+.mg-xl{
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -394,7 +407,9 @@ button{
 iframe{
 	border:0;
 }
+.p-format{
 
+}
 
 /* ScrollToTop button */
 
@@ -515,6 +530,10 @@ a[data-lightbox]:hover img{
 .bgc-arctic{
 	background-color: #DAF2F2;
 	background: linear-gradient(#DAF2F2, #BAE0E0);
+}
+.bgc-purple{
+	background-color: #CECEF6;
+	background: linear-gradient(#A9A9F5, #A9E2F3, #E0F8F7);
 }
 /* Text colour styles */
 
@@ -712,3 +731,41 @@ a[data-lightbox]:hover img{
         display:none;
     }
 }
+/*-------------------------------*/
+ /*    Carousel Fade Transition   */
+ /*-------------------------------*/
+
+ #fade-quote-carousel.carousel {
+   padding-bottom: 60px;
+ }
+ #fade-quote-carousel.carousel .carousel-inner .item {
+   opacity: 0;
+   -webkit-transition-property: opacity;
+       -ms-transition-property: opacity;
+           transition-property: opacity;
+ }
+ #fade-quote-carousel.carousel .carousel-inner .active {
+   opacity: 1;
+   -webkit-transition-property: opacity;
+       -ms-transition-property: opacity;
+           transition-property: opacity;
+ }
+ #fade-quote-carousel.carousel .carousel-indicators {
+   bottom: 30px;
+ }
+ #fade-quote-carousel.carousel .carousel-indicators > li {
+   background-color: #01DF74;
+   border: none;
+
+	 margin: 0 20px;
+ }
+ #fade-quote-carousel blockquote {
+     text-align: center;
+     border: none;
+ }
+ #fade-quote-carousel .wf-circle {
+     width: 400px !important;
+     height: 300px !important;
+     margin: 0 auto;
+     border-radius: 20px !important;
+ }

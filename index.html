@@ -25,11 +25,12 @@
 <div class="page-container">
 
     <!-- Navigation Bloc -->
-    <div class="bloc bgc-forest-green d-bloc" id="nav-bloc">
-        <div class="container">
+    <div class="bloc bgc-purple d-bloc" id="nav-bloc">
+        <div class="container ">
             <nav class="navbar row">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html"><span class="et-icon-gears icon-sm icon-white zoomIn animated"></span> Eric Goetschel</a>
+                    <a class="navbar-brand" href="index.html"><span class="zoomIn animated"></span> Eric Goetschel</a>
+                    <!--- gear icon 'et-icon-gears icon-sm icon-white'  -->
                     <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-1">
                         <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -39,16 +40,16 @@
                 <div class="collapse navbar-collapse navbar-1">
                     <ul class="site-navigation nav navbar-nav">
                         <li>
-                            <a  onclick="scrollToTarget('#about')">About</a>
+                            <a class="navfont" onclick="scrollToTarget('#about')">About</a>
                         </li>
                         <li>
-                            <a onclick="scrollToTarget('#porfolio')">Portfolio</a>
+                            <a class="navfont" onclick="scrollToTarget('#porfolio')">Portfolio</a>
                         </li>
                         <li>
-                            <a onclick="scrollToTarget('#technologies')">Technologies</a>
+                            <a class="navfont" onclick="scrollToTarget('#technologies')">Technologies</a>
                         </li>
                         <li>
-                            <a onclick="scrollToTarget('#contact')">Contact</a>
+                            <a class="navfont" onclick="scrollToTarget('#contact')">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -61,15 +62,15 @@
         <div class="container bloc-xl">
             <div class="row">
                 <div class="col-sm-12">
-                  <h3 class="text-center mg-lg tc-gray row-xs-3">SPECIALIZING
+                  <h2 class="text-center mg-lg tc-gray row-xs-3"><strong><i>SPECIALIZING IN</i></strong>
 
-                  </h3><br>
+                  </h2><br>
                     <h3 class="text-center tc-gray row-xs-3">
                       <!-- <div id='magic'></div> -->
-                      🏄 <span class='deep-green'  data-typer-targets="FULL STACK DEVELOPMENT, UI ENGINEERING"></span></h3>
+                      🏃<span class='deep-green'  data-typer-targets="FULL STACK DEVELOPMENT, UI ENGINEERING"></span></h3><br>
 
                     <h4 class="text-center  mg-lg animated fadeInUp animDelay08">
-                        My elevator pitch goes here.
+                        Aspiring developer with a fervor<br> for exploring tech's vast frontier.
                     </h4>
 
                     <div class="text-center">
@@ -82,7 +83,7 @@
     </div>
     <!-- header END -->
 
-    <!-- services -->
+    <!-- about -->
     <div class="bloc l-bloc bgc-white" id="about">
         <div class="container bloc-lg">
             <div class="row">
@@ -91,17 +92,18 @@
                         <span class="et-icon-gears icon-xl icon-forest-green animated zoomIn"></span>
                     </div>
                     <h3 class="text-center mg-md ">
-                        Web Development
+                        About
                     </h3>
 
-                    <p class="text-center">
-                        A passionate web developer.....
-                    </p>
+                    <h4 class="text-center">
+                        When I'm not in front of my computer you will find me<br>
+                        creating art, climbing mountains or catching a show.
+                    </h4>
                 </div>
             </div>
         </div>
     </div>
-    <!-- services END -->
+    <!-- about END -->
     <!-- porfolio -->
     <div class="bloc l-bloc bgc-arctic" id="porfolio">
         <div class="container bloc-lg">
@@ -117,39 +119,39 @@
                 </div>
             </div>
             <div class="row voffset">
-                <div class="col-sm-3 col-xs-4">
+                <div class="col-sm-3 col-xs-4 p-format">
                     <a href="#" data-lightbox="img/rubyTravel1.png" data-caption="Image description"><img
                             src="img/rubyTravel1.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
                 </div>
-                <div class="col-sm-3 col-xs-4">
-                    <a href="#" data-lightbox="img/player.png" data-caption="Image description"><img
-                            src="img/player.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                <div class="col-sm-3 col-xs-4 p-format">
+                    <a href="#" data-lightbox="img/reactWeather.png" data-caption="Image description"><img
+                            src="img/reactWeather.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
                 </div>
-                <div class="col-sm-3 col-xs-4">
+                <div class="col-sm-3 col-xs-4 p-format">
                     <a href="#" data-lightbox="img/stocksApp.png" data-caption="Image description"><img
                             src="img/stocksApp.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
                 </div>
-                <div class="col-sm-3 col-xs-4">
-                    <a href="#" data-lightbox="img/food-widget.png" data-caption="Image description"><img
-                            src="img/food-widget.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                <div class="col-sm-3 col-xs-4 p-format">
+                    <a href="#" data-lightbox="img/rubyTwitter2.png" data-caption="Image description"><img
+                            src="img/rubyTwitter.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
                 </div>
             </div>
             <div class="row voffset">
-                <div class="col-sm-3 col-xs-4">
+                <div class="col-sm-3 col-xs-4 p-format">
                     <a href="#" data-lightbox="img/rubyTwitter.png" data-caption="Image description"><img
                             src="img/rubyTwitter2.png" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a>
                 </div>
-                <div class="col-sm-3 col-xs-4">
-                    <a href="#" data-lightbox="img/food-widget.png" data-caption="Image description"><img
-                            src="img/food-widget.png" class="img-responsive animated zoomIn animDelay04" alt="portfolio"/></a>
+                <div class="col-sm-3 col-xs-4 p-format">
+                    <a href="#" data-lightbox="img/rubyTravel1.png" data-caption="Image description"><img
+                            src="img/rubyTravel1.png" class="img-responsive animated zoomIn animDelay04" alt="portfolio"/></a>
                 </div>
-                <div class="col-sm-3 col-xs-4">
-                    <a href="#" data-lightbox="img/work-41.jpg" data-caption="Image description"><img
-                            src="img/freebie-app.png" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a>
+                <div class="col-sm-3 col-xs-4 p-format">
+                    <a href="#" data-lightbox="img/reactVideo.png" data-caption="Image description"><img
+                            src="img/reactVideo.png" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a>
                 </div>
-                <div class="col-sm-3 col-xs-4">
-                    <a href="#" data-lightbox="img/dribbble-preview.png" data-caption="Image description"><img
-                            src="img/dribbble-preview.png" class="animDelay04 animated zoomIn img-responsive" alt="portfolio"/></a>
+                <div class="col-sm-3 col-xs-4 p-format">
+                    <a href="#" data-lightbox="img/reactWeather.png" data-caption="Image description"><img
+                            src="img/reactWeather.png" class="animDelay04 animated zoomIn img-responsive" alt="portfolio"/></a>
                 </div>
             </div>
         </div>
@@ -157,16 +159,14 @@
     <!-- porfolio END -->
 
     <!-- technologies -->
-    <div class="bloc bgc-white l-bloc" id="technologies">
-        <div class="container bloc-lg">
+    <div class="bloc  l-bloc" id="technologies">
+        <div class="container bloc-lg madpad bgc-purple">
             <div class="row voffset">
-
-
                   <div class='col-sm-4 col-sm-offset-2 text-center animated zoomInRight'>
                     <h2>Languages</h2><br>
+                    <img src="img/JavaScriptlogo.jpg" class="logoimg"/>
                     <img src="img/rubylogo.png" class="logoimg"/>
                     <img src="img/pythonlogo.png" class="logoimg"/>
-                    <img src="img/JavaScriptlogo.jpg" class="logoimg"/>
                   </div><br>
 
                   <div class='col-sm-4 col-sm-offset-1 text-center animated zoomInLeft'>
@@ -178,22 +178,76 @@
                   </div><br>
                 </div>
               <div class="row voffset">
-                  <div class='col-sm-4 text-center animated zoomInRight'>
+                <div class='col-sm-4 col-sm-offset-1 text-center animated zoomInLeft'>
+                  <h2>Databases</h2><br>
+                  <img src="img/postgresql-logo.gif" class="logoimg"/>
+                  <img src="img/mongodb-logo.png" class="logoimg"/>
+                  <img src="img/mysql-logo.png" class="logoimg"/>
+                  <img src="img/firebase-logo.jpeg" class="logoimg"/>
+                </div><br>
+                  <div class='col-sm-4  col-sm-offset-1 text-center animated zoomInRight'>
                     <h2>Libraries</h2><br>
                     <img src="img/reactjs-logo.png" class="logoimg"/>
                     <img src="img/bootstrap-logo.png" class="logoimg"/>
                     <img src="img/jQuery-logo.jpg" class="logoimg"/>
                   </div><br>
-                  <div class='col-sm-4 col-sm-offset-2 text-center animated zoomInLeft'>
-                    <h2>Databases</h2><br>
-                    <img src="img/postgresql-logo.gif" class="logoimg"/>
-                    <img src="img/mongodb-logo.png" class="logoimg"/>
-                    <img src="img/mysql-logo.png" class="logoimg"/>
-                  </div><br>
-                </div>
+                  </div>
+                  <div class='text-center animated zoomInLeft'><br><br>
+                    <h3> Other technologies/skills include:</h3>
+                    <h2> HTML, CSS, Git, Node.js, Express.io, Mongoose.js,</h2>
+                    <h2> Microsoft Excel, OOP, MVC, MTV, RESTful Architecture</h2>
+                  </div>
+            </div>
     </div>
     <!-- technologies END -->
+    <!-- WIP Carousel -->
 
+    <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <h2 class='mg-xl text-center'>Works In Progress</h2>
+                        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                                <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <div class="wf-circle">
+                                      <a href="#" data-lightbox="img/rubyTwitter2.png" data-caption="Image description"><img
+                                              src="img/rubyTwitter.png" class="img-responsive animated fadeInUp" alt="designFrames"/></a>
+                                    </div>
+                                    <blockquote>
+                                        <p>This Venue Sucks Live</p>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <div class="wf-circle">
+                                      <a href="#" data-lightbox="img/rubyTwitter2.png" data-caption="Image description"><img
+                                              src="img/rubyTwitter.png" class="img-responsive animated fadeInUp" alt="designFrames"/></a>
+                                    </div>
+                                    <blockquote>
+                                        <p>Urban Consumer to Farmer Connection</p>
+                                    </blockquote>
+                                </div>
+                                <div class="active item">
+                                    <div class="wf-circle">
+                                      <a href="#" data-lightbox="img/rubyTwitter2.png" data-caption="Image description"><img
+                                              src="img/rubyTwitter.png" class="img-responsive animated fadeInUp" alt="designFrames"/></a>
+                                    </div>
+                                    <blockquote>
+                                        <p>Try it once and live.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- WIP Carousel END-->
     <!-- Footer - quote -->
     <div class="bloc bgc-forest-green d-bloc">
         <div class="container bloc-md">
@@ -206,7 +260,6 @@
         </div>
     </div>
     <!-- Footer - quote END -->
-
 
     <!-- ScrollToTop Button -->
     <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
@@ -246,8 +299,5 @@
             </div>
     <!-- Footer - bloc-8 END -->
 </div>
-
 </body>
-
-
 </html>
