@@ -1,7 +1,4 @@
-/*-----------------------------------------------------------------------------------
-        Companyportfolio
-        Built with Blocs
------------------------------------------------------------------------------------*/
+
 
 body{
 	margin:0;
@@ -64,7 +61,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Sizes */
 
 .madpad{
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
 .bloc-xl{
 	padding:150px 50px;
@@ -206,7 +203,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* = NavBar
 -------------------------------------------------------------- */
-
+.fa-tree{
+	color: green;
+}
 .navbar{
 	margin-bottom: 0;
 	z-index:1;
@@ -215,14 +214,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	height:auto;
 	padding:15px 15px;
 	font-size:35px!important;
-	text-shadow: -2px 1px 4px #ff0000;
+	/*text-shadow: -2px 1px 4px #848484;*/
 	font-weight:normal;
 	font-weight:600;
-	color: #5858FA !important; /*//////////////////'Eric Goetschel' color//////////////////////////*/
+	color: #f2f2f2 !important; /*//////////////////'Eric Goetschel' color//////////////////////////*/
 }
-.navfont{
-	color: #5858FA !important; /*----------------------------------------------------*/
-}
+
 .navbar-brand img{
 	max-height: 200px;
 	margin: 0 5px 0 0;
@@ -247,7 +244,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 }
 .nav > li a:hover, .nav > li a:focus{
-	background:#CED8F6;
+	background:none;
 	border-radius: 10px;
 }
 .navbar-toggle{
@@ -408,7 +405,12 @@ iframe{
 	border:0;
 }
 .p-format{
+	position: relative;
+}
+.w-format{
 
+	max-width: 400px;
+	max-height: 300px;
 }
 
 /* ScrollToTop button */
@@ -518,6 +520,19 @@ a[data-lightbox]:hover img{
 	background-color: #88d77f;
 	background: linear-gradient(#037307, #88d77f);
 }
+.bgc-pistachio{
+	background-color: #85e085;
+}
+.bgc-forest-green-2{
+	/*background-color:#00994d;*/
+	background-color: #88d77f;
+	background: linear-gradient(#248f24, #99e699);
+}
+.bgc-forest-green-3{
+	/*background-color:#00994d;*/
+	background-color: #88d77f;
+	background: linear-gradient(#88d77f,#037307);
+}
 .bgc-outer-space{
 	background-color:#47454B;
 }
@@ -535,8 +550,17 @@ a[data-lightbox]:hover img{
 	background-color: #CECEF6;
 	background: linear-gradient(#A9A9F5, #A9E2F3, #E0F8F7);
 }
+.bgc-purple2{
+	background-color: #CECEF6;
+	background: linear-gradient(#E0F8F7, #A9E2F3, #A9A9F5 );
+}
 /* Text colour styles */
-
+.bgc-gray2{
+	color: #4d4d4d !important;
+}
+.fubar{
+	color: #fff !important;
+}
 .tc-gray{
 	color:#fff!important;
 }
@@ -558,8 +582,8 @@ a[data-lightbox]:hover img{
 }
 /* Icon colour styles */
 
-.icon-forest-green{
-	color:#00994d!important;
+.icon-arctic{
+	color:#DAF2F2!important;
 	border-color:#00994d!important;
 }
 .icon-outer-space{
@@ -740,6 +764,7 @@ a[data-lightbox]:hover img{
  }
  #fade-quote-carousel.carousel .carousel-inner .item {
    opacity: 0;
+	 max-width: 600px !important;
    -webkit-transition-property: opacity;
        -ms-transition-property: opacity;
            transition-property: opacity;
@@ -763,9 +788,16 @@ a[data-lightbox]:hover img{
      text-align: center;
      border: none;
  }
- #fade-quote-carousel .wf-circle {
-     width: 400px !important;
-     height: 300px !important;
-     margin: 0 auto;
-     border-radius: 20px !important;
+ #fade-quote-carousel .wf-circle img{
+	 position: relative !important;
+	 max-width: 600px;
+	 height: auto;
+
+
  }
+
+
+
+.contact{
+	color: black;
+}
