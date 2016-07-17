@@ -53,6 +53,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	background-size: cover;
 	position:relative;
 }
+.blocX{
+	width:100%;
+	clear:both ;
+	background: 50% 50% no-repeat;
+	padding: 8px 0px !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+}
 .bloc .container{
 	padding-left:0;
 	padding-right:0;
@@ -315,6 +326,12 @@ nav .caret{
 	margin-top:10px;
 	margin-bottom:10px;
 }
+.mg-lg2{
+	/*margin-top: 60px !important;*/
+}
+.mg-lg3{
+	font-size: 3em !important;
+}
 .mg-xl{
 	margin-top: 80px;
 	margin-bottom: 40px;
@@ -533,6 +550,9 @@ a[data-lightbox]:hover img{
 	background-color: #88d77f;
 	background: linear-gradient(#88d77f,#037307);
 }
+.bgc-light-green{
+	background-color: #BDECB8;
+}
 .bgc-outer-space{
 	background-color:#47454B;
 }
@@ -595,6 +615,7 @@ a[data-lightbox]:hover img{
 
 .bg-mtwashington{
 	background-image:url("img/mtwashington.png");
+
 }
 
 
@@ -755,49 +776,12 @@ a[data-lightbox]:hover img{
         display:none;
     }
 }
-/*-------------------------------*/
- /*    Carousel Fade Transition   */
- /*-------------------------------*/
 
- #fade-quote-carousel.carousel {
-   padding-bottom: 60px;
- }
- #fade-quote-carousel.carousel .carousel-inner .item {
-   opacity: 0;
-	 max-width: 600px !important;
-   -webkit-transition-property: opacity;
-       -ms-transition-property: opacity;
-           transition-property: opacity;
- }
- #fade-quote-carousel.carousel .carousel-inner .active {
-   opacity: 1;
-   -webkit-transition-property: opacity;
-       -ms-transition-property: opacity;
-           transition-property: opacity;
- }
- #fade-quote-carousel.carousel .carousel-indicators {
-   bottom: 30px;
- }
- #fade-quote-carousel.carousel .carousel-indicators > li {
-   background-color: #01DF74;
-   border: none;
-
-	 margin: 0 20px;
- }
- #fade-quote-carousel blockquote {
-     text-align: center;
-     border: none;
- }
- #fade-quote-carousel .wf-circle img{
-	 position: relative !important;
-	 max-width: 600px;
-	 height: auto;
-
-
- }
 
 
 
 .contact{
-	color: black;
+	color: #71787A;
+	font-size: 0.75em;
+	font-family: Montserrat;
 }

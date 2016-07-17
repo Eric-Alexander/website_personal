@@ -245,7 +245,7 @@ String.prototype.rightChars = function(n) {
     };
 
     getTypeInterval = function() {
-        return $.typer.options.typeSpeed;
+        return $.typer.options.typeSpeed = 50;
     },
 
     clearDelay = function() {
@@ -257,6 +257,6 @@ String.prototype.rightChars = function(n) {
     };
 
     typerInterval = function() {
-        return $.typer.options.typerInterval = 222;
+        return $.typer.options.typerInterval = 20;
     };
 })(jQuery);

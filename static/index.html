@@ -30,7 +30,6 @@
             <nav class="navbar row">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html"><span class=" zoomIn animated"><i class="fa fa-tree fa-lg"></i></span> Eric Goetschel</a>
-                    <!--- gear icon 'et-icon-gears icon-sm icon-white'  -->
                     <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-1">
                         <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -40,13 +39,10 @@
                 <div class="collapse navbar-collapse navbar-1">
                     <ul class="site-navigation nav navbar-nav">
                         <li>
-                            <a class="navfont" onclick="scrollToTarget('#about')">About</a>
-                        </li>
-                        <li>
                             <a class="navfont" onclick="scrollToTarget('#porfolio')">Portfolio</a>
                         </li>
                         <li>
-                            <a class="navfont" onclick="scrollToTarget('#technologies')">Technologies</a>
+                            <a class="navfont" onclick="scrollToTarget('#skills')">Skills</a>
                         </li>
                         <li>
                             <a class="navfont" onclick="scrollToTarget('#contact')">Contact</a>
@@ -62,18 +58,18 @@
         <div class="container bloc-xl">
             <div class="row">
                 <div class="col-sm-12">
-                  <h3 class="text-center mg-lg tc-gray row-xs-3"><strong>SPECIALIZING IN</strong>
+                  <h3 class="text-center mg-lg3 tc-gray row-xs-3"><strong>SPECIALIZING IN</strong>
 
                   </h3><br>
                     <h3 class="text-center tc-gray row-xs-3">
                       <!-- <div id='magic'></div> -->
-                      _<span class='deep-green'  data-typer-targets="FULL STACK DEVELOPMENT, UI ENGINEERING"></span></h3><br>
+                      _<span class='deep-green'  data-typer-targets="FULL STACK DEVELOPMENT, APPLICATION PROTOTYPES, UI ENGINEERING "></span></h3><br>
 
                     <h4 class="text-center  mg-lg animated fadeInUp animDelay08">
-                      I'm a developer with a fervor<br> for exploring tech's vast frontier.
+                      A programmer with a fervor<br> for exploring the vast <br>frontier of web technology
                     </h4>
-                    <div class="text-center">
-                        <a class="btn  btn-xl btn-wire wire-btn-forest-green animDelay2 animated fadeInUp"
+                    <div class="text-center mg-lg2">
+                        <a class="btn  btn-xl btn-wire wire-btn-forest-green animDelay2 animated fadeInUp "
                            onclick="scrollToTarget('#porfolio')">PORTFOLIO</a>
                     </div>
                 </div>
@@ -83,21 +79,15 @@
     <!-- header END -->
 
     <!-- about -->
-    <div class="bloc l-bloc bgc-white" id="about">
+    <div class="bloc l-bloc bgc-white">
         <div class="container bloc-lg">
             <div class="row">
-                <div class="col ">
-                    <div class="text-center">
-                        <span class="et-icon-gears icon-xl icon-forest-green animated zoomIn"></span>
-                    </div>
-                    <h3 class="text-center mg-md ">
-                        About
-                    </h3>
+                <div class="col-sm-10 col-sm-offset-1 ">
 
-                    <h4 class="text-center">
+                    <h3 class="text-center">
                         I'm a full stack developer with a particular interest in front end JavaScript engineering. When I'm not programming you will find me
                         creating art, climbing mountains or catching a show. Explore some of my recent work below!
-                    </h4>
+                    </h3>
                 </div>
             </div>
         </div>
@@ -115,40 +105,40 @@
             </div>
             <div class="row voffset">
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/rubyTravel1.png" data-caption="A Ruby on Rails application where users can signup and sign-in, create new trips and join other users' trips or remove themselves from any given trip."><img
-                            src="img/travelPic.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Travel_Planner" target="black">Github</a> | <a href="https://travel-planning-with-friends.herokuapp.com/" target="_blank">Website</a>
+                    <a href="#" data-lightbox="img/rubyTravel1.png" data-caption="Built with Ruby on Rails, PostgreSQL, Bootstrap, HTML and CSS. An application where users can signup and sign-in, create new trips and join other users' trips or remove themselves from any given trip."><img
+                            src="img/Travel.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Travel_Planner" target="_blank" class="btn btn-xs btn-wire">Github</a> | <a href="https://travel-planning-with-friends.herokuapp.com/" target="_blank" class="btn btn-xs btn-wire">Website</a>
                 </div>
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/rubyTwitter.png" data-caption="A Ruby on Rails application aimed add mimicking the basic functionality of Twitter. Users can sign up and sign in, create posts and follow other users."><img
-                            src="img/rubyTwitter2.png" class="img-responsive animated zoomIn animDelay04" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Rails_Twitter_Clone" target="_blank">Github</a> | <a href="https://erics-custom-twitter.herokuapp.com/" target="_blank">Website</a>
+                    <a href="#" data-lightbox="img/rubyTwitter.png" data-caption="Built with Ruby on Rails, PostgreSQL, Bootstrap, HTML and CSS. An application aimed add mimicking the basic functionality of Twitter. Users can sign up and sign in, create posts and follow other users."><img
+                            src="img/TwitterClone.jpg" class="img-responsive animated zoomIn animDelay04" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Rails_Twitter_Clone" target="_blank" class="btn btn-xs btn-wire">Github</a> | <a href="https://erics-custom-twitter.herokuapp.com/" target="_blank" class="btn btn-xs btn-wire" >Website</a>
                 </div>
 
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/stocksApp.png" data-caption="A Ruby on Rails application in which users can sign up or sign in and track stocks. Users can search for stocks and other users to follow and see what stocks they monitor."><img
-                            src="img/stocksPic.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Rails_Stocks_Friends" target="_blank">Github</a> | <a href="https://stocks-and-friends.herokuapp.com" target="_blank">Website</a>
+                    <a href="#" data-lightbox="img/stocksApp.png" data-caption="Built with Ruby on Rails, PostgreSQL, Bootstrap, HTML and CSS. An application in which users can sign up or sign in and track stocks. Users can search for stocks and other users to follow and see what stocks they monitor."><img
+                            src="img/StocksFriends.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Rails_Stocks_Friends" target="_blank"  class="btn btn-xs btn-wire">Github</a> | <a href="https://stocks-and-friends.herokuapp.com" target="_blank" class="btn btn-xs btn-wire">Website</a>
                 </div>
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/moneyWireframe.png" data-caption="A Ruby on Rails application where users can sign in a lender or borrower (but not both) in which lenders can lend 'money' to borrowers."><img
-                            src="img/moneyPic.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/money_lender_app" target="_blank">Github</a>
+                    <a href="#" data-lightbox="img/moneyWireframe.png" data-caption="Built with Ruby on Rails, PostgreSQL, Bootstrap, HTML and CSS. An application where users can sign up as a lender or borrower (but not both) in which lenders can lend 'money' to borrowers."><img
+                            src="img/MoneyLender.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/money_lender_app" target="_blank"  class="btn btn-xs btn-wire">Github</a>
                 </div>
             </div>
             <div class="row voffset">
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/discussionWireframe.png" data-caption="A MongoDB, Express, Angular.js (1.5) and Node.js application where users can sign up or sign in and post topics to discuss. Users can comment on these posts."><img
-                            src="img/discussionPic.jpg" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/MEAN_discussionBoard" target="_blank">Github</a>
+                    <a href="#" data-lightbox="img/discussionWireframe.png" data-caption="Built with MongoDB, Mongoose.js, Express, Angular.js (1.5), Node.js and HTML. An application where users can sign up or sign in and post topics to discuss. Users can comment on these posts."><img
+                            src="img/DiscussionBoard.jpg" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/MEAN_discussionBoard" target="_blank"  class="btn btn-xs btn-wire">Github</a>
                 </div>
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/flashcardsWirefram.png" data-caption="A React and Redux flashcard application. Decks and cards can be added. In addition, when the card flips, a user is prompted to answer how well they did. Based upon response the flashcard will not appear in the deck for a given period of time."><img
-                            src="img/flashcardsPic.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Flashcards_React_Redux" target="_blank">Github</a>
+                    <a href="#" data-lightbox="img/flashcardsWirefram.png" data-caption="Built with React, Redux, Bootstrap, HTML and CSS. A Flashcard Application where decks and cards can be added. In addition, when the card flips, a user is prompted to answer how well they did. Based upon response the flashcard will not appear in the deck for a given period of time."><img
+                            src="img/flashcards.jpg" class="img-responsive animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/Flashcards_React_Redux" target="_blank" class="btn btn-xs btn-wire">Github</a>
                 </div>
 
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/reactWeather.png" data-caption="A simple but elegant weather application with graphs illustrating a 5-day forecast of temperature, pressure, humidity and their averages. Built with React and Redux."><img
-                            src="img/weatherPic.jpg" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/redux_weather_app" target="_blank">Github</a>
+                    <a href="#" data-lightbox="img/reactWeather.png" data-caption="Built with React, Redux, Bootstrap, HTML and CSS. A simple but elegant weather application with graphs illustrating a 5-day forecast of temperature, pressure, humidity and their averages."><img
+                            src="img/Weather.jpg" class="img-responsive animDelay04 animated zoomIn" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/redux_weather_app" target="_blank" class="btn btn-xs btn-wire">Github</a>
                 </div>
                 <div class="col-sm-3 col-xs-4 p-format">
-                    <a href="#" data-lightbox="img/gitReact.png" data-caption="A simple app built with React and Firebase. Search for Github members and take notes in regards to their profile, repos, etc..."><img
-                            src="img/gitsearchh.png" class="animDelay04 animated zoomIn img-responsive" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/GitHub_user_search_notetaker" target="_blank">Github</a>
+                    <a href="#" data-lightbox="img/gitReact.png" data-caption="Built with React, Redux, Firebase and Bootstrap, HTML and CSS. Search for Github members and take notes in regards to their profile, repos, etc..."><img
+                            src="img/githubSearch.jpg" class="animDelay04 animated zoomIn img-responsive" alt="portfolio"/></a><a href="https://github.com/Eric-Alexander/GitHub_user_search_notetaker" target="_blank" class="btn btn-xs btn-wire">Github</a>
                 </div>
             </div>
         </div>
@@ -156,59 +146,55 @@
     <!-- porfolio END -->
 
     <!-- technologies -->
-    <div class="bloc  l-bloc  bgc-purple2" id="technologies">
+    <div class="bloc  l-bloc  bgc-purple2" id="skills">
         <div class="container">
             <div class="row voffset">
                   <div class='col-sm-4 col-sm-offset-2 text-center animated zoomInRight'>
                     <h2>Languages</h2><br>
-                    <img src="img/JavaScriptlogo.jpg" class="logoimg"/>
-                    <img src="img/rubylogo.png" class="logoimg"/>
-                    <img src="img/pythonlogo.png" class="logoimg"/>
+                    <img src="img/JavaScriptlogo.jpg" class="logoimg" alt="JavaScript"/>
+                    <img src="img/rubylogo.png" class="logoimg" alt="Ruby"/>
+                    <img src="img/pythonlogo.png" class="logoimg" alt="Python"/>
                   </div><br>
 
                   <div class='col-sm-4 col-sm-offset-1 text-center animated zoomInLeft'>
                     <h2>Frameworks</h2><br>
-                    <img src="img/Ruby_on_Rails_logo.jpg" class="logoimg"/>
-                    <img src="img/angular-logo.jpeg" class="logoimg"/>
-                    <img src="img/djangologo.png" class="logoimg"/>
-                    <img src="img/flasklogo.png" class="logoimg"/>
+                    <img src="img/Ruby_on_Rails_logo.jpg" class="logoimg" alt="Rails"/>
+                    <img src="img/angular-logo.jpeg" class="logoimg" alt="Angular"/>
+                    <img src="img/djangologo.png" class="logoimg" alt="Django"/>
+                    <img src="img/flasklogo.png" class="logoimg" alt="Flask"/>
                   </div><br>
                 </div>
               <div class="row voffset">
                 <div class='col-sm-4 col-sm-offset-1 text-center animated zoomInLeft'>
                   <h2>Databases</h2><br>
-                  <img src="img/postgresql-logo.gif" class="logoimg"/>
-                  <img src="img/mongodb-logo.png" class="logoimg"/>
-                  <img src="img/mysql-logo.png" class="logoimg"/>
-                  <img src="img/firebase-logo.jpeg" class="logoimg"/>
+                  <img src="img/postgresql-logo.gif" class="logoimg" alt="PostgreSQL"/>
+                  <img src="img/mongodb-logo.png" class="logoimg" alt="MongoDB"/>
+                  <img src="img/mysql-logo.png" class="logoimg" alt="MySQL"/>
+                  <img src="img/firebase-logo.jpeg" class="logoimg" alt="Firebase"/>
                 </div><br>
                   <div class='col-sm-4  col-sm-offset-1 text-center animated zoomInRight'>
                     <h2>Libraries</h2><br>
-                    <img src="img/reactjs-logo.png" class="logoimg"/>
-                    <img src="img/bootstrap-logo.png" class="logoimg"/>
-                    <img src="img/jQuery-logo.jpg" class="logoimg"/>
+                    <img src="img/reactjs-logo.png" class="logoimg" alt="React"/>
+                    <img src="img/bootstrap-logo.png" class="logoimg" alt="Bootstrap"/>
+                    <img src="img/jQuery-logo.jpg" class="logoimg" alt = "jQuery"/>
                   </div><br>
                   </div>
                   <div class='text-center animated zoomInLeft'><br><br>
-                    <h3> Other skills</h3>
-                    <h2 class="fubar"> HTML, CSS, ES6, Git, Node.js, Express, Mongoose.js,</h2>
-                    <h2 class="fubar"> Microsoft Excel, Balsamiq, OOP, MVC, MTV, RESTful Architecture</h2>
+                    <h3> Other Skills</h3>
+                    <h2 class="fubar"> HTML, CSS, ES6, Git, Node.js, Express, Mongoose.js, Redux</h2>
+                    <h2 class="fubar">Webpack, AJAX, Microsoft Excel, Balsamiq, OOP, MVC, MTV, RESTful Architecture</h2>
                   </div>
             </div>
     </div>
     <!-- technologies END -->
     <!-- WIP -->
-    <div class="bloc l-bloc bgc-pistachio" id="porfolio">
+    <div class="bloc l-bloc bgc-light-green" id="porfolio">
         <div class="container bloc-lg">
             <div class="row">
                 <div class="col-sm-12">
                     <h2 class="text-center mg-md ">
                         Works In Progress
                     </h2>
-
-                    <p class="text-center sub-heading">
-                        Here are a couple of projects I'm currently working on.
-                    </p>
                 </div>
             </div>
             <div class="row voffset">
@@ -236,12 +222,12 @@
                     </h3>
                 </div>
                 <div class="col-sm-9 col-sm-offset-7">
-            <h3 class="mg-md bgc-gray2 animated fadeInDown animDelay1">
-                ...and thanks for stopping by!
-            </h3>
-          </div>
+                  <h3 class="mg-md bgc-gray2 animated fadeInDown animDelay1">
+                    ...and thanks for stopping by!
+                  </h3>
+                </div>
+            </div>
         </div>
-    </div>
     <!-- Footer - quote END -->
 
     <!-- ScrollToTop Button -->
@@ -249,12 +235,12 @@
             class="fa fa-chevron-up"></span></a>
     <!-- ScrollToTop Button END-->
 
-    <!-- Footer - bloc-8 -->
+    <!-- Footer - bloc -->
     <div id="contact">
-    <div class="bloc bgc-forest-green-3 l-bloc" id="bloc-8">
+    <div class="blocX bgc-forest-green-3 l-bloc">
         <div class="container bloc-sm">
             <div class="row">
-                <div class="col-xs-12 col-md-10">
+                <div class="col-sm-12 col-md-12">
                     <div class="col-sm-3 text-center">
                         <a class="social-lg" href="https://www.linkedin.com/in/ericgoetschel" target="_blank"><span
                                 class="fa fa-linkedin icon-md icon-arctic"></span></a>
@@ -269,7 +255,7 @@
                            target="_blank"><span class="fa fa-envelope icon-md icon-arctic"></span></a>
                     </div>
                     <div class="col-sm-3 text-center">
-                        <a class="social-lg" href="https://github.com/Eric-Alexander" target="_blank"><span
+                        <a class="social-lg" href="img/GoetschelResume.pdf" target="_blank"><span
                                 class="fa fa-file-pdf-o icon-md icon-arctic"></span></a>
                     </div>
                 </div>
@@ -278,9 +264,9 @@
     </div>
   </div>
     <div class="row">
-                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center mg-md">Created by Eric Goetschel</div>
+                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center mg-md contact">Created by Eric Goetschel with Node.js, Express, jQuery, JavaScript, HTML, CSS and Bootstrap</div>
             </div>
-    <!-- Footer - bloc-8 END -->
+    <!-- Footer - bloc END -->
 </div>
 </body>
 </html>
