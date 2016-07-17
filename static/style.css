@@ -778,7 +778,10 @@ a[data-lightbox]:hover img{
 }
 
 
-
+.b-align{
+	margin-top: 10px;
+	margin-right: 10px;
+}
 
 .contact{
 	color: #71787A;
